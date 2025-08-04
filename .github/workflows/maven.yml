@@ -23,4 +23,4 @@ jobs:
       run: mvn -B package --file hello/pom.xml
 
     - name: Run HelloWorld
-      run: java -jar hello/target/*.jar
+      run: /home/runner/work/test/test/hello/target/helloworld-1.0.jar
