@@ -12,8 +12,10 @@
     <name>HelloWorldApp</name>
 
     <build>
+        <!-- 👇 New output directory -->
+        <directory>${project.basedir}/build-output</directory>
+
         <plugins>
-            <!-- Plugin to create executable jar -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
