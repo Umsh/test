@@ -13,7 +13,7 @@
 
     <build>
         <!-- Output jar to custom path -->
-        <directory>${project.basedir}/build-output</directory>
+        <directory>${project.basedir}/target</directory>
 
         <plugins>
             <plugin>
